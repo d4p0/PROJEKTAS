@@ -78,6 +78,23 @@ nav.navigation-menu .home-button {
 
 
 /* CONTENT */
+.short-introduction p{
+	font-family: roboto;
+	font-weight: 600;
+	text-align: center;
+	
+}
+
+.slideshow-container img {
+position: relative;
+margin: auto;
+max-width: 1000px;
+
+}
+
+.slideshow {display: none;}
+
+.slideshowimg {vertical-align: middle;}
 
 div.short-introduction-wrapper {
 	text-align: center;
@@ -129,7 +146,17 @@ footer {
 	font-family:Roboto;
 	font-weight: 500;
 	background-color: gray;
-	padding: 5px;
+	padding: 10px;
 	color:white;
 }
-footer p {margin-left: 20px;}
+footer p {
+	margin-left: 20px;
+}
+footer p a {
+text-decoration: none;
+color:white;
+}
+footer p a:hover {
+	text-decoration:underline;
+	
+}

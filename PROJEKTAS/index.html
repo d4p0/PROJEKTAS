@@ -6,6 +6,7 @@
 		<title>Beseen - become visible</title>
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 		<link href="css/styles.css" rel="stylesheet">
+		<script src="js/script.js"></script>
 	</head>
 
 	<body>
@@ -25,10 +26,22 @@
 		
 		
 		<!-- Content -->
-		<div class="hero-banner">
-		
+		<div class="slideshow-container">
+			
+			<div class="slideshow">
+				<img src="Images/SLIDE1.jpg">
+			</div>
+
+			<div class="slideshow">
+				<img src="Images/SLIDE2.jpg">
+			</div>
+
+			<div class="slideshow">
+				<img src="Images/SLIDE3.jpg">
+			</div>
 		</div>
-		<div class="short-introduction-wrapper">
+		
+		<div class="short-introduction">
 			<p>
 				We deliver innovative and exceptional design and marketing solutions that increase sales and make your brand known.
 			</p>
@@ -45,26 +58,26 @@
 				<li>And much much more...</li>
 				<br>
 			</ul>
-			<button>Contact Us</button>
+				<button onclick="window.location.href='AboutUs/index.html';">Contact Us</button>
 		</div>
 		
 		<div class="background-overlay">
 			<section class="competence-section">
 					<h2>Competence</h2>
 					<h3>Become seen</h3>
-					<button>View Our projects</button>
+					<button onclick="window.location.href='OurProjects/index.html';">View Our projects</button>
 			</section>
 		</div>
 		
 		<!-- Footer -->
 		<Footer>
-		<p>
-			Contact info: +37063721356<br>
-			info@BeSeen.com<br>
-			All Rights Reserved
-		</p>
-		
-		
+			<div>
+				<p>
+					Contact info: <a href="tel:+37063721356"> +37063721356</a><br>
+					<a href="mailto:info@BeSeen.com"> info@BeSeen.com</a><br>
+					All Rights Reserved
+				</p>
+			</div>
 		</Footer>
 	</body>
 </html>
