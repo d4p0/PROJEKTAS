@@ -230,26 +230,105 @@ div.page-title {
 	text-align: center;
 }
 
-
-div.our-team {
+.row {
 	display:flex;
-	justify-content: center;
+	justify-content:center;
 }
-div.our-team img{
-	display:inline;
-	width: 300px;
+.column {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	font-family:roboto;
+	width: 30%;
+	margin: 16px;
+	padding: 20px;
+	border: solid;
+	border-color: dodgerblue;
+}
+@media screen and (max-width: 650px) {
+	.row {
+		display:contents;
+	}
+	.column {
+		width: 80%;
+		display: block;
+		
+	}
+
+}
+@media screen and (max-width: 650px) {
+		.card img {
+	align-content: center;
+	margin: 0px !important;
+	}
+}
+
+.card img {
+	align-content: center;
+	margin: 0px 0px 20px 60px;
+	width:300px;
 	height:300px;
 	border-radius: 50%;
-}
-.our-team ul li {
-	display:inline;
-	padding: 0px 30px;
-	font-family: roboto;
-	font-weight: 500;
-	font-size: 26px;
 	
 }
+.column:hover{
+	background-color:dodgerblue;
+	color:white;
+	transition: background-color 0.5s;
+}
+.team-container h2:hover {
+	text-decoration: underline;
+}
+
+
+/* OUR PROJECTS */
+div.project-logo{
+	display:flex;
+	padding:20px;
+	justify-content: space-around;
 	
+}
+
+
+.our-projects-hero {
+	text-align: center;
+	color:white;
+	background-color: dodgerblue;
+	padding: 10px;
+}
+#counter-container h1{
+	text-align: center;
+}
+
+div#counter-container {
+	display:flex;
+	justify-content:space-around;
+}
+div.counters {
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	font-family:roboto;
+	font-size:24px;
+	width: 30%;
+	padding: 20px;
+	
+}
+.counter-card {
+	text-align: center;
+	margin:100px;
+	
+}
+
+.counter-card img {
+	width: 200px;
+	height:200px;
+	margin: 20px;
+
+	
+}
+
+/* PRICING */
 
 /* FOOTER */
 
