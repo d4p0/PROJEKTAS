@@ -1,3 +1,4 @@
+//counter
 const speed = 600;
 
 document.querySelectorAll('.counter').forEach(counter => {
